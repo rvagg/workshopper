@@ -15,7 +15,7 @@
     "i18n-core": "^1.3.2",
     "map-async": "~0.1.1",
     "mkdirp": "~0.3.5",
-    "msee": "~0.1.1",
+    "msee": "^0.1.2",
     "optimist": "~0.6.1",
     "terminal-menu": "^2.1.1",
     "visualwidth": "~0.0.1",
