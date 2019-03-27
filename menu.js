@@ -73,6 +73,9 @@ function showMenu (opts, i18n) {
     menu.y = 0
     menu.reset()
     menu.close()
+  })
+
+  menu.on('close', function () {
     process.stdin.pause()
     process.stdin.removeListener('data', passDataToMenu)
     menuStream.unpipe(process.stdout)
