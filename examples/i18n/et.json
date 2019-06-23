@@ -1,0 +1,12 @@
+{
+  "title": "WORKSHOPPER NÄITE ÜLESANNE",
+  "subtitle": "\u001b[23mVali ülesanne ja vajuta \u001b[3mEnter\u001b[23m et alustada",
+  "menu": {
+    "credits": "AUTORID"
+  },
+  "exercise": {
+    "foo": "FOO",
+    "bar": "BAR",
+    "baz": "BAZ"
+  }
+}

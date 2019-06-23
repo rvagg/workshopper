@@ -1,0 +1,22 @@
+{bold}{yellow}Kasutamine{/yellow}{/bold}
+
+  {bold}{green}{appname}{/green}{/bold}
+    Näite menüüd, et valida ülesanne.
+  {bold}{green}{appname}{/green} list{/bold}
+    Näita kõiki ülesandeid eraldi ridadel.
+  {bold}{green}{appname}{/green} select NAME{/bold}
+    Vali ülesanne.
+  {bold}{green}{appname}{/green} current{/bold}
+    Näita hetkel valitud ülesannet.
+  {bold}{green}{appname}{/green} print{/bold}
+    Näita hetkel valitud ülesande juhiseid.
+  {bold}{green}{appname}{/green} next{/bold}
+    Näita peale hetke ülesannet järgneva täitmata ülesande juhiseid.
+  {bold}{green}{appname}{/green} reset{/bold}
+    Lähtesta ülesande progress.
+  {bold}{green}{appname}{/green} run program.js{/bold}
+    Jooksuta oma programmi valitud sisendi suhtes.
+  {bold}{green}{appname}{/green} verify program.js{/bold}
+    Valideeri oma programmi oodatud väljundi suhtes.
+  {bold}{green}{appname}{/green} -l <language>{/bold}
+    Muuda süsteemi keelt määratud keeleks.

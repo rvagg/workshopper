@@ -1,0 +1,68 @@
+{
+  "menu": {
+    "exit": "VÄLJU",
+    "help": "ABI",
+    "completed": "TEHTUD",
+    "language": "VALI KEEL (CHOOSE LANGUAGE)",
+    "cancel": "TÜHISTA"
+  },
+  "language": {
+    "_current": "VALITUD",
+    "de": "Saksa (Deutsch)",
+    "et": "Eesti (Estonian)",
+    "en": "Inglise (English)",
+    "fr": "Prantsuse (français)",
+    "ja": "Jaapani (日本語)",
+    "zh-cn": "Hiina (中文)",
+    "zh-tw": "Taiwaani (國語)",
+    "es": "Hispaania (Español)",
+    "pt-br": "Brasiilia Portugali (Português)",
+    "vi": "Vietnami (Tiếng Việt)",
+    "uk": "Ukrainia (Ukrainian)",
+    "ru": "Vene (Русский)",
+    "ko": "Korea (한국어)",
+    "pl": "Poola (Polski)",
+    "nb-no": "Norra (Norsk)"
+  },
+  "error": {
+    "exercise": {
+      "none_active": "Aktiivset ülesannet ei ole. Vali üks menüüst.",
+      "missing": "Sellist ülesannet ei ole: {{{name}}}",
+      "unexpected_error": "Ei saanud täita käsku {{mode}}: {{{err}}}",
+      "missing_file": "VIGA: {{{exerciseFile}}} ei eksisteeri!",
+      "not_a_workshopper": "VIGA: {{{exerciseFile}}} ei ole workshopper-i ülesanne",
+      "preparing": "Viga ülesande ettevalmistamisel: {{{err}}}",
+      "loading": "Viga ülesande teksti laadimisel: {{{err}}}"
+    },
+    "no_uncomplete_left": "Peale seda ülesannet ei ole ühtegi mittetäidetud ülesannet",
+    "cleanup": "Viga puhastamisel: {{{err}}}",
+    "notty": "Palun käivita see tty-compatible võimaldavas terminali programmis."
+  },
+  "solution": {
+    "fail": {
+      "title": "VALE",
+      "message": "Sinu lahendus ülesandele {{{name}}} on kahjuks vale. Proovi uuesti!\n"
+    },
+    "pass": {
+      "title": "ÕIGE",
+      "message": "Sinu lahendus ülesandele {{{name}}} on õige!"
+    },
+    "notes": {
+      "compare": "Siin on ametlik lahendus, kui soovid võrrelda:\n",
+      "load_error": "VIGA: Tekkis viga lahenduse faili printimisel: {{{err}}}"
+    }
+  },
+  "ui": {
+    "return": "Kirjuta '{{appName}}' menüü kuvamiseks.\n",
+    "usage": "Kasutamine: {{appName}} {{mode}} mysubmission.js"
+  },
+  "progress": {
+    "reset": "lähtesta {{title}} progress",
+    "finished": "Oled lõpetanud kõik ülesanded! Hurraa!\n",
+    "state": "Ülesanne {{count}} / {{amount}}-st",
+    "remaining": {
+      "one": "Sul on üks ülesanne järel",
+      "other": "Sul on {{count}} ülesannet järel."
+    }
+  }
+}
