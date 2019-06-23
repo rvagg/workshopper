@@ -1,0 +1,12 @@
+{
+  "title": "WORKSHOPPER: ESEMPIO DI WORKSHOP",
+  "subtitle": "\u001b[23mSeleziona un esercizio e premi \u001b[3mInvio\u001b[23m per iniziare",
+  "menu": {
+    "credits": "CREDITI"
+  },
+  "exercise": {
+    "foo": "TIZIO",
+    "bar": "CAIO",
+    "baz": "SEMPRONIO"
+  }
+}

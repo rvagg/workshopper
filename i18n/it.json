@@ -1,0 +1,68 @@
+{
+  "menu": {
+    "exit": "ESCI",
+    "help": "AIUTO",
+    "completed": "COMPLETATO",
+    "language": "CAMBIA LA LINGUA",
+    "cancel": "ANNULLA"
+  },
+  "language": {
+    "_current": "ATTUALE",
+    "de": "Tedesco (Deutsch)",
+    "en": "Inglese (English)",
+    "fr": "Francese (français)",
+    "ja": "Giapponese (日本語)",
+    "zh-cn": "Cinese (中文)",
+    "zh-tw": "Taiwanese (國語)",
+    "es": "Spagnolo (Español)",
+    "pt-br": "Portoghese brasiliano (Português)",
+    "vi": "Vietnamita (Tiếng Việt)",
+    "uk": "Ucraino (Українська)",
+    "ru": "Russo (Русский)",
+    "ko": "Coreano (한국어)",
+    "pl": "Polacco (Polski)",
+    "nb-no": "Norvegese (Norsk)",
+    "it": "Italiano"
+  },
+  "error": {
+    "exercise": {
+      "none_active": "Nessun esercizio attivo. Seleziona uno dal menu.",
+      "missing": "Esercizio mancante: {{{name}}}",
+      "unexpected_error": "Impossibile completare {{mode}}: {{{err}}}",
+      "missing_file": "ERRORE: {{{exerciseFile}}} non esiste!",
+      "not_a_workshopper": "ERRORE: {{{exerciseFile}}} non è un valido esercizio di workshopper",
+      "preparing": "Errore durante la preparazione dell'esercizio: {{{err}}}",
+      "loading": "Errore durante il caricamento del testo dell'esercizio: {{{err}}}"
+    },
+    "no_uncomplete_left": "Tutti gli esercizi successivi all'esercizio attuale sono stati completati",
+    "cleanup": "Errore durante il ripristino: {{{err}}}",
+    "notty": "Si prega di eseguire all'interno di un terminale tty-compatibile."
+  },
+  "solution": {
+    "fail": {
+      "title": "FALLIMENTO",
+      "message": "La tua soluzione a {{{name}}} non è corretta. Riprova!\n"
+    },
+    "pass": {
+      "title": "SUCCESSO",
+      "message": "La tua soluzione a {{{name}}} è corretta!"
+    },
+    "notes": {
+      "compare": "Ecco la soluzione ufficiale in caso si voglia confrontarla con la propria:\n",
+      "load_error": "ERRORE: Si è verificato un problema nel mostrare il file della soluzione: {{{err}}}"
+    }
+  },
+  "ui": {
+    "return": "Scrivi '{{appName}}' per mostrare il menu.\n",
+    "usage": "Uso: {{appName}} {{mode}} la_mia_soluzione.js"
+  },
+  "progress": {
+    "reset": "{{title}} progress reset",
+    "finished": "Evviva! Hai completato tutte le sfide!\n",
+    "state": "Esercizio {{count}} di {{amount}}",
+    "remaining": {
+      "one": "Ti rimane una sola sfida irrisolta.",
+      "other": "Ti rimangono {{count}} sfide irrisolte."
+    }
+  }
+}
