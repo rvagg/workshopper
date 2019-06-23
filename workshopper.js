@@ -23,7 +23,10 @@ function Workshopper (options) {
 
   EventEmitter.call(this)
 
-  var handled = false
+  var config = argv.c || argv.config || '.config'
+    , dir = util.homeDir(config)
+    , handled = false
+    , valid = false
     , exercise
     , mode = argv._[0]
 
@@ -33,11 +36,14 @@ function Workshopper (options) {
   if (typeof options.name != 'string')
     throw new TypeError('need to provide a `name` String option')
 
+  if (fs.existsSync(dir) && !fs.statSync(dir).isDirectory())
+    throw new Error('the `~/' + config + '` is not a valid directory, use --config to change the directory.')
+
   this.appName       = options.name
   this.appDir        = util.assertDir(options, 'appDir')
   this.exerciseDir   = util.assertDir(options, 'exerciseDir', options.appDir, 'exercises')
-  this.globalDataDir = util.userDir('.config', 'workshopper')
-  this.dataDir       = util.userDir('.config', this.appName)
+  this.globalDataDir = util.userDir(config, 'workshopper')
+  this.dataDir       = util.userDir(config, this.appName)
 
   util.assertFile(options, 'menuJson', options.exerciseDir, 'menu.json')
 

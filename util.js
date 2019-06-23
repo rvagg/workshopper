@@ -39,9 +39,13 @@ function assertFs (type, options, field, base, fallback) {
   return target
 }
 
-function userDir () {
+function homeDir () {
   var folders = [process.env.HOME || process.env.USERPROFILE].concat(Array.prototype.slice.apply(arguments))
-  var dir = path.join.apply(path, folders)
+  return path.join.apply(path, folders)
+}
+
+function userDir () {
+  var dir = homeDir.apply(this, arguments);
   mkdirp.sync(dir)
   return dir
 }
@@ -62,4 +66,5 @@ module.exports = {
   , assertDir: assertFs.bind(null, 'dir')
   , assertFile: assertFs.bind(null, 'file')
   , userDir: userDir
+  , homeDir: homeDir
 }
